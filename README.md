@@ -18,8 +18,9 @@ Ovo je .NET 8 projekt pod nazivom **HRprojekat**.
 
 3. Kreiraj datoteku **.env** u korenu projekta.
 
-   > ⚠️ Ovaj fajl mora postojati da bi projekat pravilno radio. U njemu se nalaze konfiguracije i tajne promenljive okruženja (npr. konekcioni stringovi, API ključevi, i slično).
-
+   ```bash
+   copy .env.example .env
+   ```
 
 ## Struktura projekta
 
@@ -32,4 +33,4 @@ Ovo je .NET 8 projekt pod nazivom **HRprojekat**.
 
 ## Napomena
 
-Pre pokretanja, obavezno kreiraj i pravilno popuni fajl `.env`!
+Pre pokretanja, obavezno kreiraj i pravilno popuni fajl `.env`, primer kreiran u fajlu `.env.example`!
